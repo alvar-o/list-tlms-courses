@@ -1,0 +1,55 @@
+html, body {
+    font-family: Helvetica;
+    font-size: 13px;
+    color: #333;
+}
+
+table, tr {
+    border: none;
+    border-collapse: collapse;
+}
+
+td, th {
+    border: 1px solid #bbb;
+    padding: 8px 6px;
+}
+
+th {
+    text-transform: capitalize;
+    text-align: left;
+    background-color: #ddd;
+}
+
+details {
+    padding: 1rem;
+    background-color: #ddd;
+    border-radius: 8px;
+    margin-bottom: 1.5rem;
+    width: max-content;
+}
+summary {
+    font-weight: bold;
+    font-size: 1.3rem;
+    width: max-content;
+}
+
+summary:focus {
+    outline: none;
+}
+
+p, pre {
+    margin: 0.6em 0;
+}
+pre {
+    background-color: #eee;
+    border-radius: 3px;
+    padding: 3px;
+    width: max-content;
+}
+
+hr {
+    border-style: solid;
+    border-color: #bbb;
+    border-width: 0 0 1px 0;
+    margin: 1rem 0;
+}
